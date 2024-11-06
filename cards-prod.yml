@@ -1,0 +1,5 @@
+application:
+  name: cards
+  info:
+    version: 1.0.1
+    owner: Palantir
