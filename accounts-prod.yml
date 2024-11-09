@@ -1,5 +1,5 @@
 application:
-  name: Webhook
+  name: MyApp
   info:
     version: "{cipher}c0f80de2f2e87fdbfe61a35dcf92c247fbba7dd48e3b0d388361d09387857b28"
     owner: "{cipher}5ebeb7b95dac52eaf17486d12bb7bb5b7beb3da8bfd659c15707856b13a5be59"
