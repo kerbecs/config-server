@@ -1,2 +1,15 @@
 server:
   port: 9000
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3307/cards
+  sql:
+    init:
+      mode: always
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
