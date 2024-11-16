@@ -6,3 +6,16 @@ application:
   info:
     version: 0.0.1
     owner: Eduard
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3309/accounts
+  sql:
+    init:
+      mode: always
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
